@@ -114,8 +114,7 @@ def main():
             project="GreekAI/ZINDI-cgiar",
             description='Bayesian classification, sigma^2 set to 0.1507', 
             source_files=["src/*.py", "train.py", "launch.sh"],
-            # with_id='ZINDI-9',
-            api_token="eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiJiNGRhMzc1Yi00YWI2LTQ3NDktODJiMy1lMzM1Y2Y4ZGU1NmYifQ==",
+            api_token="",
         ) 
 
         fields = ['parameters', 'model', 'metrics', 'monitoring', 'images', 'snapshots', 'matric']
